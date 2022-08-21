@@ -28,26 +28,44 @@
       }
     },
     {
-      "name": "Storage",
-      "scope": ["storage", "keyword.control", "keyword.operator.new"],
+      "name": "Storage, Attributes",
+      "scope": [
+        "storage",
+        "keyword.control",
+        "keyword.operator.new",
+        "entity.other.attribute-name"
+      ],
       "settings": {
         "foreground": "#f3dbb0"
       }
     },
     {
-      "name": "Variables, Functions, Classes",
-      "scope": ["variable", "entity.name.function", "entity.name.type.class"],
+      "name": "Variables, Text, CSS Value",
+      "scope": [
+        "variable",
+        "support.variable.property",
+        "meta.jsx.children.js.jsx",
+        "text.html.derivative",
+        "meta.property-value",
+        "meta.property-name.css",
+        "text.svelte"
+      ],
       "settings": {
-        "foreground": "#d2d9df"
+        "foreground": "#caced1"
       }
     },
-    // {
-    //   "name": "Variables, Functions, Classes",
-    //   "scope": ["entity.name.function", "entity.name.type.class"],
-    //   "settings": {
-    //     "foreground": "#ee99cd"
-    //   }
-    // },
+    {
+      "name": "Functions, Classes, Tags",
+      "scope": [
+        "entity.name.function",
+        "entity.name.type.class",
+        "entity.name.tag",
+        "support.class.component.svelte"
+      ],
+      "settings": {
+        "foreground": "#ad836a"
+      }
+    },
     {
       "name": "Assignment",
       "scope": ["keyword.operator"],
@@ -64,16 +82,16 @@
       }
     },
     {
-      "name": "Strings, Numbers, Quotations, Null",
+      "name": "Strings, Numbers, Booleans, Quotations, Null",
       "scope": [
         "string",
         "punctuation.definition.string",
         "constant.numeric",
-        "constant.language.null"
+        "constant.language.null",
+        "constant.language.boolean"
       ],
       "settings": {
         "foreground": "#6090e9"
-        // "foreground": "#4bd173"
       }
     },
     {
@@ -83,7 +101,8 @@
         "meta.brace.square",
         "punctuation.definition.block",
         "punctuation.definition.binding-pattern.object",
-        "punctuation.definition.parameters"
+        "punctuation.definition.parameters",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#53545e",
@@ -94,7 +113,7 @@
       "name": "Types",
       "scope": ["entity.name.type", "support.type"],
       "settings": {
-        "foreground": "#d6caba"
+        "foreground": "#ac9d89"
       }
     }
   ]

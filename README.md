@@ -5,3 +5,7 @@ I add tokens as I encounter them so it's still under construction and will be fo
 Supports:
 
 - Javascript
+- Typescript
+- JSX
+- HTML
+- CSS

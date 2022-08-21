@@ -28,12 +28,15 @@
       }
     },
     {
-      "name": "Storage, Attributes",
+      "name": "Storage, Attributes, Markdown Bold/Italics/Links",
       "scope": [
         "storage",
         "keyword.control",
         "keyword.operator.new",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "markup.bold.markdown",
+        "markup.italic.markdown",
+        "markup.underline.link"
       ],
       "settings": {
         "foreground": "#f3dbb0"
@@ -48,19 +51,21 @@
         "text.html.derivative",
         "meta.property-value",
         "meta.property-name.css",
-        "text.svelte"
+        "text.svelte",
+        "meta.paragraph.markdown"
       ],
       "settings": {
         "foreground": "#caced1"
       }
     },
     {
-      "name": "Functions, Classes, Tags",
+      "name": "Functions, Classes, Tags, Markdown Headings",
       "scope": [
         "entity.name.function",
         "entity.name.type.class",
         "entity.name.tag",
-        "support.class.component.svelte"
+        "support.class.component.svelte",
+        "markup.heading.markdown"
       ],
       "settings": {
         "foreground": "#ad836a"

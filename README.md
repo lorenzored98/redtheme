@@ -9,3 +9,4 @@ Supports:
 - JSX
 - HTML
 - CSS
+- Markdown

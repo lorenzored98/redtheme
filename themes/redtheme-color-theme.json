@@ -4,13 +4,14 @@
   "semanticHighlighting": true,
   "colors": {
     "editor.background": "#19191a",
-    "editor.foreground": "#ff0000",
+    "editor.foreground": "#caced1",
+    // Uncomment to debug new languages
+    // "editor.foreground": "#ff0000",
     "editorCursor.foreground": "#ffffff",
-    "terminalCursor.foreground": "#ffffff",
     "focusBorder": "#ffedcb",
 
     // Selections, Searches
-    "editor.selectionBackground": "#202020",
+    "editor.selectionBackground": "#29292b",
     "editor.selectionHighlightBackground": "#20202000",
     "editor.wordHighlightBackground": "#00000000",
     "editor.wordHighlightStrongBackground": "#00000000",
@@ -23,13 +24,13 @@
     "editor.lineHighlightBackground": "#202020",
 
     // Actions
-    "toolbar.hoverBackground": "#ff0000",
-    "toolbar.hoverOutline": "#00ff00",
-    "toolbar.activeBackground": "#0000ff",
+    "toolbar.hoverBackground": "#202020",
+    "toolbar.activeBackground": "#202020",
 
     // List and Trees
-    "selection.background": "#101010",
+    "selection.background": "#29292b",
     "list.hoverBackground": "#202020",
+    "list.activeSelectionBackground": "#202020",
 
     // Tabs and Editor Groups
     "editorGroup.border": "#000000",
@@ -39,20 +40,33 @@
     "tab.border": "#00000000",
 
     // Button
+    "button.background": "#202020",
 
     // Dropdown, Widgets
+    "dropdown.foreground": "#caced1",
+    "dropdown.background": "#101010",
+
     "editorSuggestWidget.background": "#19191a",
     "editorSuggestWidget.foreground": "#caced1",
     "editorSuggestWidget.selectedBackground": "#202020",
-    "editorSuggestWidget.highlightForeground": "#f3dbb0",
-    "editorSuggestWidget.focusHighlightForeground": "#f3dbb0",
-    "editorSuggestWidget.selectedForeground": "#f3dbb0",
+    "editorSuggestWidget.highlightForeground": "#6090e9",
+    "editorSuggestWidget.focusHighlightForeground": "#6090e9",
+    "editorSuggestWidget.selectedForeground": "#6090e9",
+    "editorHoverWidget.background": "#19191a",
+    "editorWidget.background": "#101010",
 
     // Input
+    "input.background": "#19191a",
+    "quickInput.background": "#101010",
 
     // Scrollbar
+    "scrollbar.shadow": "#00000000",
+    "scrollbarSlider.background": "#00000000",
+    "scrollbarSlider.hoverBackground": "#caced1",
 
     // Badge
+    "badge.background": "#ad836a",
+    "activityBarBadge.background": "#ad836a",
 
     // Progress Bar
 
@@ -72,11 +86,23 @@
 
     // Title Bar
     "titleBar.activeBackground": "#101010",
-    "titleBar.inactiveBackground": "#101010"
+    "titleBar.inactiveBackground": "#101010",
 
     // Menu Bar
 
     // Panel
+    "panel.background": "#101010",
+
+    // Notifications
+    "notifications.background": "#101010",
+    "notifications.foreground": "#caced1",
+
+    // Terminal
+    "terminalCursor.foreground": "#ffffff",
+    "terminal.foreground": "#caced1",
+    "terminal.background": "#101010"
+
+    // Debug
   },
   "tokenColors": [
     {

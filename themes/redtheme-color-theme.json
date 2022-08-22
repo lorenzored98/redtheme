@@ -81,7 +81,7 @@
     "statusBar.background": "#101010",
     "statusBar.foreground": "#caced1",
     "statusBar.noFolderBackground": "#101010",
-    "statusBar.debuggingBackground": "#ffdd9f",
+    "statusBar.debuggingBackground": "#ad836a",
     "statusBarItem.hoverBackground": "#202020",
 
     // Title Bar

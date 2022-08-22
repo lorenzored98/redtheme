@@ -5,10 +5,15 @@
   "colors": {
     "editor.background": "#19191a",
     "editor.foreground": "#ff0000",
+    "editor.selectionBackground": "#101010",
+    "editor.selectionHighlightBackground": "#101010",
+    "editor.wordHighlightBackground": "#000000ff",
+    "editorCursor.foreground": "#ffffff",
+    "terminalCursor.foreground": "#ffffff",
+
     "descriptionForeground": "#ffffff",
     "errorForeground": "#ffffff",
     "focusBorder": "#ffdd9f",
-    "selection.background": "#00ff00",
 
     // Gutter background when active
     "editor.lineHighlightBackground": "#202020",
@@ -19,16 +24,25 @@
     "toolbar.activeBackground": "#0000ff",
 
     // List and Trees
+    "selection.background": "#00ff00",
+    "list.hoverBackground": "#202020",
 
     // Tabs and Editor Groups
     "editorGroup.border": "#000000",
     "editorGroupHeader.tabsBackground": "#101010",
     "tab.activeBackground": "#19191a",
     "tab.inactiveBackground": "#101010",
+    "tab.border": "#00000000",
 
     // Button
 
-    // Dropdown
+    // Dropdown, Widgets
+    "editorSuggestWidget.background": "#19191a",
+    "editorSuggestWidget.foreground": "#ffffff",
+    "editorSuggestWidget.selectedBackground": "#202020",
+    "editorSuggestWidget.highlightForeground": "#f3dbb0",
+    "editorSuggestWidget.focusHighlightForeground": "#f3dbb0",
+    "editorSuggestWidget.selectedForeground": "#f3dbb0",
 
     // Input
 

@@ -5,15 +5,19 @@
   "colors": {
     "editor.background": "#19191a",
     "editor.foreground": "#ff0000",
-    "editor.selectionBackground": "#101010",
-    "editor.selectionHighlightBackground": "#101010",
-    "editor.wordHighlightBackground": "#000000ff",
     "editorCursor.foreground": "#ffffff",
     "terminalCursor.foreground": "#ffffff",
+    "focusBorder": "#ffedcb",
 
-    "descriptionForeground": "#ffffff",
-    "errorForeground": "#ffffff",
-    "focusBorder": "#ffdd9f",
+    // Selections, Searches
+    "editor.selectionBackground": "#202020",
+    "editor.selectionHighlightBackground": "#20202000",
+    "editor.wordHighlightBackground": "#00000000",
+    "editor.wordHighlightStrongBackground": "#00000000",
+    "editor.findMatchBackground": "#00000000",
+    "editor.findMatchHighlightBackground": "#202020",
+    "editor.findMatchBorder": "#f3dbb0",
+    "editor.rangeHighlightBackground": "#00000000",
 
     // Gutter background when active
     "editor.lineHighlightBackground": "#202020",
@@ -24,7 +28,7 @@
     "toolbar.activeBackground": "#0000ff",
 
     // List and Trees
-    "selection.background": "#00ff00",
+    "selection.background": "#101010",
     "list.hoverBackground": "#202020",
 
     // Tabs and Editor Groups
@@ -38,7 +42,7 @@
 
     // Dropdown, Widgets
     "editorSuggestWidget.background": "#19191a",
-    "editorSuggestWidget.foreground": "#ffffff",
+    "editorSuggestWidget.foreground": "#caced1",
     "editorSuggestWidget.selectedBackground": "#202020",
     "editorSuggestWidget.highlightForeground": "#f3dbb0",
     "editorSuggestWidget.focusHighlightForeground": "#f3dbb0",
@@ -61,8 +65,10 @@
 
     // Status Bar
     "statusBar.background": "#101010",
+    "statusBar.foreground": "#caced1",
     "statusBar.noFolderBackground": "#101010",
     "statusBar.debuggingBackground": "#ffdd9f",
+    "statusBarItem.hoverBackground": "#202020",
 
     // Title Bar
     "titleBar.activeBackground": "#101010",

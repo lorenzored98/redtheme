@@ -1,4 +1,4 @@
-redtheme, my personal vscode theme under construction.
+redtheme, my personal VSCode theme under construction.
 
 I add tokens as I encounter them so it's still under construction and will be for the foreseeable future.
 

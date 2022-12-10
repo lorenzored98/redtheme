@@ -15,4 +15,5 @@ Supports:
 - Markdown
 
 Preview for a typescript file.
+
 ![Preview for a typescript file](.github/ts.png)

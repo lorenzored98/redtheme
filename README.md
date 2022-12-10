@@ -13,3 +13,5 @@ Supports:
 - HTML
 - CSS
 - Markdown
+
+![Preview for a typescript file](.github/ts.png)
